@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 100vw;
+    max-width: 100vw;
+}
+
+.header {
+    width: 100vw;
+    padding: 0 10%;
+    position: absolute;
+    top: 20px;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+.header_links {
+    display: flex;
+    column-gap: 1rem;
+}
+
+.header_links img {
+    width: 2rem;
+}
+
+.header_nav {
+    background-color: #FFF;
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10.9px);
+    -webkit-backdrop-filter: blur(10.9px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+
+    height: 2rem;
+    min-width: 260px;
+
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    position: fixed;
+    right: 10%;
+}
+
+.header_nav a {
+    font-family: 'Amatic SC';
+    font-size: 1.1rem;
+
+    color: #FFF;
+    text-decoration: none;
+}
+
+.home {
+    max-width: 100vw;
+    height: 100vh;
+
+    background-image: url(../assets/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10%;
+}
+
+.home_text {
+    width: 50%;
+}
+.home_text_table{
+    display: flex;
+    justify-content: left;
+}
+
+table tr {
+    box-sizing: content-box;
+    padding: 0 100px;
+}
+
+.home_text_table_text,
+.home_text_table_text_dynamic ul li span {
+    font-size: 3rem;
+    font-family: 'Amatic SC';
+    color: #FFF;
+    font-weight: normal;
+}
+
+.home_text_table_text_dynamic {
+    list-style: none;
+}
+
+.home_text_table_text b {
+    color: #0EE7B7;
+}
+
+ td{
+    padding: 10px 0;
+}
+
+.home_text_table_tags::after {
+    content: attr(data-label);
+    font-size: 1rem;
+    font-family: 'Josefin Sans';
+    color: #FFF;
+    margin-left: 0;
+}
+
+.home_text_table_button button {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 270px;
+    height: 50px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(2px);
+
+    border: 2px solid #FFF;
+
+    font-family: 'Amatic SC';
+    font-size: 1.5rem;
+    color: #FFF;
+    font-weight: 800;
+
+    border-radius: 5px;
+
+
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+    border-radius: 10px;
+
+    border: 2px solid #0EE7B7;
+}
+
+#section{
+    margin-left: -200px !important;
+}
