@@ -83,6 +83,7 @@ body {
 table tr {
     box-sizing: content-box;
     padding: 0 100px;
+    z-index: 10;
 }
 
 .home_text_table_text,
@@ -142,6 +143,24 @@ table tr {
     border: 2px solid #0EE7B7;
 }
 
-#section{
-    margin-left: -200px !important;
+#div{
+    position: relative;
+    left: 30px;
+}
+
+#h1, #button{
+    position: relative;
+    left: 60px;
+}
+
+#interno{
+    position: relative;
+    left: 90px;
+}
+
+.home_svg{
+    position: absolute;
+    bottom: -1rem;
+    left: 0;
+    width: 100vw;
 }
