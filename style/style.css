@@ -62,11 +62,14 @@ body {
     max-width: 100vw;
     height: 100vh;
 
-    background-image: url(../assets/background.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+    
 
-    background: linear-gradient(107.56deg, #19002D 3.81%, #550098 98.18%), #19002D;
+    background: url(../assets/wave.svg), linear-gradient(107.56deg, #19002D 3.81%, #550098 98.18%), #19002D;
+
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    background-position: bottom;
 
 
     display: flex;
@@ -219,17 +222,6 @@ td {
 #interno {
     position: relative;
     left: 90px;
-}
-
-.home_svg {
-    position: absolute;
-    bottom: -10px;
-    left: 0;
-    max-width: 100%;
-    min-width: 100%;
-    z-index: 0;
-    transform: scaleY(100%);
-    display: none;
 }
 
 .home_pict{
