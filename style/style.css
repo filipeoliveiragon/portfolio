@@ -194,7 +194,7 @@ td {
 }
 
 .home_text_table_button a:focus {
-    background: #00feff;
+    background: #550098;
     box-shadow: 0 0 20px rgba(255, 255, 255, 0.4);
 }
 
