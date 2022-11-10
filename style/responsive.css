@@ -1,0 +1,94 @@
+@media (max-width: 900px) {
+
+    .header{
+        top: 1%;
+    }
+
+    .header_links img{
+        width: 20px;
+    }
+
+    .header_nav{
+        min-width: 30%;
+        height: 20px;
+        padding: 0 10px;
+        gap: 10%;
+    }
+
+    .header_nav a{
+        font-size: 0.9rem;
+    }
+
+    .home {
+        flex-flow: column nowrap;
+        max-width: none;
+        padding-top: 10%;
+        overflow: scroll;
+        height: none;
+        min-height: 100vh;
+    }
+
+    .home_text {
+        width: 100%;
+    }
+
+    .home_text_table_tags::after {
+        font-size: 0.7rem;
+    }
+
+    .home_text_table {
+        justify-content: space-between;
+    }
+
+    .home_text_table_text,
+    .home_text_table_text_dynamic ul li span {
+        font-size: 1.5rem;
+    }
+
+
+    td {
+        padding: 2% 0;
+    }
+
+    #div {
+        position: relative;
+        left: 15px;
+    }
+
+    #h1,
+    #button {
+        position: relative;
+        left: 30px;
+    }
+
+    #interno {
+        position: relative;
+        left: 30px;
+    }
+
+    .home_text_table_button img {
+        width: 12%;
+    }
+
+    .home_text_table_button a {
+        width: 200px;
+        height: 40px;
+
+        border: 1px solid #FFF;
+        font-size: 1rem;
+        border: 2px solid #00feff;
+    }
+
+    .home_text_table_button a::after,
+    .home_text_table_button a::before {
+        width: 20px;
+        height: 5px;
+        background-color: #00feff;
+    }
+
+    #myCanvas {
+        width: 100%;
+        height: 100%;
+
+    }
+}

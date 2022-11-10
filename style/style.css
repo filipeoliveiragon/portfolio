@@ -62,7 +62,7 @@ body {
     max-width: 100vw;
     height: 100vh;
 
-    
+
 
     background: url(../assets/wave.svg), linear-gradient(107.56deg, #19002D 3.81%, #550098 98.18%), #19002D;
 
@@ -224,6 +224,6 @@ td {
     left: 90px;
 }
 
-.home_pict{
+.home_pict {
     z-index: 1;
 }
