@@ -227,3 +227,9 @@ td {
 .home_pict {
     z-index: 1;
 }
+
+.skills{
+    background-color: #19002D;
+    width: clamp(100vw);
+    height: 100vh;
+}

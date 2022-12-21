@@ -9,7 +9,7 @@
     }
 
     .header_nav{
-        min-width: 30%;
+        min-width: 50%;
         height: 20px;
         padding: 0 10px;
         gap: 10%;
@@ -23,9 +23,8 @@
         flex-flow: column nowrap;
         max-width: none;
         padding-top: 10%;
-        overflow: scroll;
-        height: none;
-        min-height: 100vh;
+        height: 120vh;
+        min-height: none;
     }
 
     .home_text {
